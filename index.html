@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Interior Design</title>
+        <link rel="stylesheet" href="./style/style.css" />
+        <script>
+            function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            }
+            else {
+                x.style.display = "block";
+            }
+        }
+        </script>
+    </head>
+    <body>
+        <div class="container">
+
+            <div class="topnav">
+                <a href="#home" class="active"><img src="./images/white-logo.png" alt="logo" /></a>
+                <div id="myLinks">
+                  <a href="#aboutus">About Us</a>
+                  <a href="#benifits">Benifits</a>
+                  <a href="#projects">Projects</a>
+                  <a href="#stages">Stages</a>
+                  <a href="#services">Services</a>
+                  <li>
+                    <span class="call">
+                        <img src="./images/call.png"/>
+                    </span>
+                    <p>Call Us
+                    +316545434</p>
+                </li>
+                </div>
+
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <img src="./images/icons8-menuwhite.svg" alt="menu">
+                </a>
+            </div>
+
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="./images/white-logo.png" alt="logo" />
+                </div>
+                <div class="line">
+                    <ul class="list">
+                        <a href="#aboutus">About Us</a>
+                        <a href="#benifits">Benifits</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#stages">Stages</a>
+                        <a href="#services">Services</a>
+                        <li>
+                            <span class="call">
+                                <img src="./images/call.png"/>
+                            </span>
+                            <p>Call Us</br>
+                            +316545434</p>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- -------hero---------->
+            
+            <section class="hero">
+                <div class="hero-left">
+                    <h1>
+                        Interior Design That <br />
+                        Care About Details
+                    </h1>
+                    <button>Learn More</button>
+                </div>
+                <div class="right">
+                    <div class="square">
+                        <div class="icon">
+                            <img src="./images/puzzle-piece-solid.svg" alt="image">
+                        </div>
+                        <p>
+                            We create your space better<br />
+                            based on your own idea
+                        </p>
+                        <div class="circle-line">
+                            <span class="circle"></span>
+                        </div>
+                    </div>
+                    <div class="square">
+                        <div class="icon">
+                           <img src="./images/bulb-svgrepo-com.svg" alt="image">
+                        </div>
+                        <p>
+                            Innovation ideas, stylish <br />
+                            design
+                            for home & business
+                        </p>
+                        <div class="circle-line">
+                            <span class="circle"></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>
